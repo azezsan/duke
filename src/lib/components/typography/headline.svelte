@@ -2,6 +2,6 @@
 	let { className = '' } = $props();
 </script>
 
-<p class="text-xl {className}">
+<p class="text-xl text-justify {className}">
 	<slot />
 </p>
