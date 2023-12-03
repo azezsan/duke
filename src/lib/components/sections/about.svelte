@@ -2,6 +2,7 @@
 	import * as m from '$paraglide/messages';
 	import Headline from '../typography/headline.svelte';
 	import Title from '../typography/title.svelte';
+	import image from '$lib/assets/3_Buldings.png';
 
 	const stats = [
 		{
@@ -38,7 +39,7 @@
 					{/each}
 				</div>
 			</div>
-			<img src="https://picsum.photos/1000" alt="hero" />
+			<img src={image} alt="hero" />
 		</div>
 	</div>
 </section>

@@ -4,6 +4,7 @@
 	import Title from '../typography/title.svelte';
 	import PrimaryButton from '../ui/button/primaryButton.svelte';
 	import SecondaryButton from '../ui/button/secondaryButton.svelte';
+	import hero from '$lib/assets/3_Buldings.png';
 </script>
 
 <section class="py-20 md:py-32" id="hero">
@@ -17,7 +18,7 @@
 					<SecondaryButton />
 				</div>
 			</div>
-			<img src="https://picsum.photos/1000" alt="hero" />
+			<img src={hero} alt="hero" />
 		</div>
 	</div>
 </section>
