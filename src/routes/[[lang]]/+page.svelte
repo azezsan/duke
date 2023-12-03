@@ -8,6 +8,7 @@
 	import Location from '$lib/components/sections/location.svelte';
 	import Logo from '$lib/components/sections/logo.svelte';
 	import Navbar from '$lib/components/sections/navbar.svelte';
+	import Portfolio from '$lib/components/sections/portfolio.svelte';
 </script>
 
 <Navbar />
@@ -16,6 +17,7 @@
 <Benefit />
 <Feature />
 <About />
+<Portfolio />
 <Cta />
 <Location />
 <Footer />

@@ -21,7 +21,7 @@
 	</div>
 	<Form.Field {config} name="name">
 		<Form.Item>
-			<Form.Label>First Name</Form.Label>
+			<Form.Label>Name</Form.Label>
 			<Form.Input />
 			<Form.Description>This is your public display name.</Form.Description>
 			<Form.Validation />
