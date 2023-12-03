@@ -35,8 +35,12 @@
 	];
 </script>
 
-<section class="py-20 md:py-32" id="benefit">
+<section class="py-20 md:py-32" id="services">
 	<div class="mx-auto max-w-7xl px-4 md:px-6 lg:px-8">
+		<div class="flex flex-col text-center gap-4">
+			<Title>{m.servcies_title()}</Title>
+			<Headline>{m.servcies_subtitle()}</Headline>
+		</div>
 		<div class="flex flex-col gap-20">
 			{#each benefits as { title, subtitle, src, alt }, i}
 				<div class="grid md:grid-cols-2 gap-6 md:gap-12">

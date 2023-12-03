@@ -5,8 +5,8 @@
 	import { Sun, Moon } from 'lucide-svelte';
 	import { toggleMode } from 'mode-watcher';
 	import PrimaryButton from '../ui/button/primaryButton.svelte';
-	import logoAr from '$lib/assets/duke_ar.svg';
-	import logoEn from '$lib/assets/duke_en.svg';
+	import LogoAr from '$lib/assets/duke_ar.svelte';
+	import LogoEn from '$lib/assets/duke_en.svelte';
 
 	function translatePath(href: string) {
 		return languageTag()
@@ -20,9 +20,9 @@
 		<div class="flex items-center justify-between">
 			<div class="flex gap-4 items-center">
 				{#if languageTag() === 'en'}
-					<img src={logoEn} alt="Logo" height="30" width="100" />
+					<LogoEn />
 				{:else}
-					<img src={logoAr} alt="Logo" height="30" width="100" />
+					<LogoAr />
 				{/if}
 				<Button on:click={toggleMode} variant="outline" size="icon">
 					<Sun
@@ -34,7 +34,7 @@
 					<span class="sr-only">Toggle theme</span>
 				</Button>
 				{#if languageTag() === 'en'}
-					<Button on:click={() => setLanguageTag('ar')} variant="outline" size="icon">
+					<Button on:click={() => setLanguageTag('ar')} variant="outline" size="icon" class="items-center">
 						<span class="sr-only">Toggle language</span>
 						<span>ع</span>
 					</Button>
@@ -47,10 +47,10 @@
 			</div>
 			<nav class="flex gap-6 z-10 md:items-center">
 				<ul class="hidden items-center whitespace-nowrap md:flex">
-					<li><a href="/about" class="p-3">link</a></li>
-					<li><a href="#services" class="p-3">link</a></li>
-					<li><a href={translatePath('/contact')} class="p-3">link</a></li>
-					<li><a href="#services" class="p-3">link</a></li>
+					<li><a href="/#about" class="p-3">{m.about()}</a></li>
+					<li><a href="/#services" class="p-3">{m.services()}</a></li>
+					<li><a href="/#portfolio" class="p-3">{m.portfolio()}</a></li>
+					<li><a href="/#location" class="p-3">{m.location()}</a></li>
 				</ul>
 				<div class="flex gap-2 md:items-center w-full">
 					<PrimaryButton />

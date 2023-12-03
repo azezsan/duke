@@ -12,14 +12,6 @@
 		{
 			number: m.about_stat_number_2(),
 			label: m.about_stat_label_2()
-		},
-		{
-			number: m.about_stat_number_3(),
-			label: m.about_stat_label_3()
-		},
-		{
-			number: m.about_stat_number_4(),
-			label: m.about_stat_label_4()
 		}
 	];
 </script>
