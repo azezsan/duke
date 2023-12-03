@@ -1,3 +1,3 @@
-<p class="text-xl font-bold">
+<p class="text-xl font-bold text-justify">
 	<slot />
 </p>
