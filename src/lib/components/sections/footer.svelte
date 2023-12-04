@@ -101,14 +101,11 @@
 				</div>
 			</div>
 			<div
-				class="flex flex-col md:flex-row md:justify-between p-6 border-t-2 text-center md:text-start"
+				class="flex flex-col md:flex-row md:justify-between py-6 border-t-2 text-center md:text-start"
 			>
 				<p>{m.footer_rights()}</p>
 				<p>{m.made_by_itar()}</p>
-				<div class="flex gap-4 justify-around">
-					<a href="#">{m.footer_privacy()}</a>
-					<a href="#">{m.footer_terms()}</a>
-				</div>
+				<a href="/privacy" target="_blank" rel="noopener noreferrer">{m.footer_privacy()}</a>
 			</div>
 		</div>
 	</div>
