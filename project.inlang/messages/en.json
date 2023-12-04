@@ -4,8 +4,7 @@
 	"about": "About the Duke of Gulf",
 	"portfolio": "Our business",
 	"services": "Our services",
-	"primary_cta": "Connect with us",
-	"secondary_cta": "+966 13 530 0000",
+	"primary_cta": "Contact us",
 	"hero_title": "To build a bright future",
 	"hero_subtitle": "We make excellence our main goal in providing construction, maintenance, engineering, and consulting services. We implement our projects efficiently and with high quality using modern technology and specialized skills. Our team is committed to realizing your vision and meeting your needs effectively.",
 	"logo_label": "Clients we are proud to deal with",
@@ -50,8 +49,16 @@
 	"portfolio_tag_2": "Road works",
 	"portfolio_title_3": "A project to implement a rainwater drainage network at the intersection of King Abdulaziz Street and Royal Street in Al-Ahsa, and it was implemented as a subcontractor with Enjaz Company.",
 	"portfolio_tag_3": "Main water lines and networks",
-	"footer_rights": "all rights are save",
+	"footer_rights": "@ 2023 Al Duke Gulf Contracting Company. All rights reserved.",
 	"footer_privacy": "privacy policy",
 	"footer_terms": "terms of use",
-	"footer_subtitle": "Our mission is to provide high quality services to our customers, and we are committed to achieving excellence in all of our work. We believe that quality, deadlines and high ethics are the foundation of our success. We are committed to supporting our community and making the world a better place."
+	"footer_subtitle": "Our mission is to provide high quality services to our customers, and we are committed to achieving excellence in all of our work. We believe that quality, deadlines and high ethics are the foundation of our success. We are committed to supporting our community and making the world a better place.",
+	"footer_socials": "Follow us on",
+	"contact_title": "Connect with us",
+	"contact_subtitle": "Share your data with us to facilitate communication",
+	"contact_fullName": "Full name",
+	"contact_email": "E-mail",
+	"contact_phone": "Phone number",
+	"contact_message": "Message",
+	"made_by_itar": "Made with ❤️ by frame"
 }

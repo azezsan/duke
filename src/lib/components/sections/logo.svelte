@@ -1,5 +1,4 @@
 <script>
-	import Label from '../typography/label.svelte';
 	import * as m from '$paraglide/messages';
 	import logo1 from '$lib/assets/Logos/Group146.svg';
 	import logo2 from '$lib/assets/Logos/alahsa_municipality.svg';
@@ -8,7 +7,7 @@
 	import logo5 from '$lib/assets/Logos/madinah_municipality.svg';
 	import logo6 from '$lib/assets/Logos/nwc.svg';
 	import logo7 from '$lib/assets/Logos/sapac.svg';
-	import logo8 from '$lib/assets/Logos/saudi_electricity.svg'
+	import logo8 from '$lib/assets/Logos/saudi_electricity.svg';
 
 	const logos = [
 		{
@@ -48,7 +47,7 @@
 
 <section class="py-8 md:py-10" id="logo">
 	<div class="mx-auto max-w-7xl px-4 md:px-6 lg:px-8 flex flex-col text-center gap-8">
-		<Label>{m.logo_label()}</Label>
+		<h3 class="label center">{m.logo_label()}</h3>
 		<div class="flex flex-wrap justify-center gap-8 max-w-xl mx-auto">
 			{#each logos as logo}
 				<img src={logo.src} alt={logo.alt} />

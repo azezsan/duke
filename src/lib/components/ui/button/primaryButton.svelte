@@ -1,5 +1,4 @@
 <script lang="ts">
-	import { cn } from '$lib/utils';
 	import * as m from '$paraglide/messages';
 	import { languageTag, sourceLanguageTag } from '$paraglide/runtime';
 	import Button from './button.svelte';
@@ -11,4 +10,4 @@
 	}
 </script>
 
-<Button size="lg" href={translatePath("/contact")} >{m.primary_cta()}</Button>
+<Button size="lg" href={translatePath('/contact')}>{m.primary_cta()}</Button>
