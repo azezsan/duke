@@ -1,11 +1,8 @@
 <script lang="ts">
 	import Footer from '$lib/components/sections/footer.svelte';
 	import Navbar from '$lib/components/sections/navbar.svelte';
-	import Headline from '$lib/components/typography/headline.svelte';
-	import Title from '$lib/components/typography/title.svelte';
 	import SettingsForm from './settings-form.svelte';
 	export let data;
-
 	import * as m from '$paraglide/messages';
 </script>
 

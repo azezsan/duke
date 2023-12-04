@@ -1,7 +1,5 @@
 <script>
 	import * as m from '$paraglide/messages';
-	import Headline from '../typography/headline.svelte';
-	import Title from '../typography/title.svelte';
 	import image from '$lib/assets/3_Buldings.png';
 
 	const stats = [
@@ -20,13 +18,13 @@
 	<div class="mx-auto max-w-7xl px-4 md:px-6 lg:px-8">
 		<div class="grid md:grid-cols-2 gap-6 md:gap-12">
 			<div class="flex flex-col gap-6 justify-center">
-				<Title>{m.about_title()}</Title>
-				<Headline>{m.about_subtitle()}</Headline>
-				<div class="grid grid-cols-2 gap-2">
+				<h2 class="title">{m.about_title()}</h2>
+				<p class="subtitle">{m.about_subtitle()}</p>
+				<div class="grid grid-cols-2 gap-4">
 					{#each stats as { number, label }}
 						<div class="flex flex-col gap-1">
-							<span class="text-3xl font-bold">{number}</span>
-							<span>{label}</span>
+							<span class="label">{number}</span>
+							<span class="text-justify">{label}</span>
 						</div>
 					{/each}
 				</div>

@@ -1,7 +1,5 @@
 <script lang="ts">
 	import * as m from '$paraglide/messages';
-	import Headline from '../typography/headline.svelte';
-	import Title from '../typography/title.svelte';
 	import PrimaryButton from '../ui/button/primaryButton.svelte';
 	import SecondaryButton from '../ui/button/secondaryButton.svelte';
 	import image1 from '$lib/assets/Hero_Image/top_line.svg';
@@ -22,16 +20,20 @@
 	<div class="mx-auto max-w-7xl px-4 md:px-6 lg:px-8">
 		<div class="grid md:grid-cols-2 gap-6 md:gap-12">
 			<div class="flex flex-col gap-6 justify-center">
-				<Title
-					className="transition-all delay-0 duration-[1000ms] ease-in-out {isMounted
+				<h1
+					class="title transition-all delay-0 duration-[1000ms] ease-in-out {isMounted
 						? 'opacity-100'
-						: 'opacity-0 -translate-y-5'}">{m.hero_title()}</Title
+						: 'opacity-0 -translate-y-5'}"
 				>
-				<Headline
-					className="transition-all delay-[100ms] duration-[1000ms] ease-in-out {isMounted
+					{m.hero_title()}
+				</h1>
+				<p
+					class="subtitle transition-all delay-[100ms] duration-[1000ms] ease-in-out {isMounted
 						? 'opacity-100'
-						: 'opacity-0 -translate-y-5'}">{m.hero_subtitle()}</Headline
+						: 'opacity-0 -translate-y-5'}"
 				>
+					{m.hero_subtitle()}
+				</p>
 				<div
 					class="flex flex-col md:flex-row gap-2 transition-all delay-[200ms] duration-[1500ms] ease-in-out {isMounted
 						? 'opacity-100'
