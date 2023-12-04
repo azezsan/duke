@@ -28,7 +28,7 @@
 				<h2 class="title center">{m.feature_title()}</h2>
 				<p class="subtitle center">{m.feature_subtitle()}</p>
 			</div>
-			<div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+			<div class="grid md:grid-cols-2 lg:grid-cols-3 gap-12">
 				{#each features as { icon, title, subtitle }}
 					<div class="flex flex-col gap-8">
 						<svelte:component
