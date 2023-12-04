@@ -1,4 +1,4 @@
-<div class="pt-20 md:pt-32" id="privacy">
+<div class="pt-20 md:pt-32" id="privacy" dir="rtl">
 	<div class="mx-auto max-w-7xl px-4 md:px-6 lg:px-8">
 		<div class="prose mx-auto">
 			<h1>Privacy Policy</h1>
