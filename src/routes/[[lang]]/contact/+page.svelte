@@ -3,7 +3,6 @@
 	import Navbar from '$lib/components/sections/navbar.svelte';
 	import SettingsForm from './settings-form.svelte';
 	export let data;
-	import * as m from '$paraglide/messages';
 </script>
 
 <Navbar />
