@@ -75,9 +75,15 @@
 							>
 								<Youtube />
 							</Button>
-							<!-- <Button variant="outline" size="icon">
+							<Button 
+							variant="outline" 
+							size="icon"
+							href="https://www.snapchat.com/add/dukegulf?share_id=L9sePGwZYkA&locale=ar-AE"
+							target="_blank"
+							rel="noopener noreferrer"
+							>
 								<Snapchat />
-							</Button> -->
+							</Button>
 							<Button
 								variant="outline"
 								size="icon"
