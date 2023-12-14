@@ -28,7 +28,7 @@
 					{m.hero_title()}
 				</h1>
 				<p
-					class="subtitle transition-all delay-[25ms] duration-[1000ms] ease-in-out {isMounted
+					class="subtitle transition-all delay-0 duration-[1000ms] ease-in-out {isMounted
 						? 'opacity-100'
 						: 'opacity-0 -translate-y-5'}"
 				>
