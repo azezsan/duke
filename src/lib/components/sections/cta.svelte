@@ -2,7 +2,7 @@
 	import * as m from '$paraglide/messages';
 	import PrimaryButton from '../ui/button/primaryButton.svelte';
 	import SecondaryButton from '../ui/button/secondaryButton.svelte';
-	import image from '$lib/assets/Inside_Bulding.png';
+	import image from '$lib/assets/Inside_Bulding.png?w=600&format=webp';
 </script>
 
 <section class="py-20 md:py-32" id="cta">
@@ -16,7 +16,7 @@
 					<SecondaryButton />
 				</div>
 			</div>
-			<img src={image} alt="hero" />
+			<img src={image} alt="hero" width="600" height="600" />
 		</div>
 	</div>
 </section>

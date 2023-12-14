@@ -49,6 +49,7 @@
 						<h4 class="label">{m.footer_socials()}</h4>
 						<div class="flex flex-wrap gap-3">
 							<Button
+								aria-label="Follow us on X"
 								variant="outline"
 								size="icon"
 								href="https://x.com/dukegulf"
@@ -58,6 +59,7 @@
 								<X />
 							</Button>
 							<Button
+								aria-label="Follow us on Facebook"
 								variant="outline"
 								size="icon"
 								href="https://www.facebook.com/people/dukegulf/100092443881590/"
@@ -67,6 +69,7 @@
 								<Facebook />
 							</Button>
 							<Button
+								aria-label="Follow us on Youtube"
 								variant="outline"
 								size="icon"
 								href="https://www.youtube.com/@Dukegulf"
@@ -75,16 +78,18 @@
 							>
 								<Youtube />
 							</Button>
-							<Button 
-							variant="outline" 
-							size="icon"
-							href="https://www.snapchat.com/add/dukegulf?share_id=L9sePGwZYkA&locale=ar-AE"
-							target="_blank"
-							rel="noopener noreferrer"
+							<Button
+								aria-label="Follow us on Snapchat"
+								variant="outline"
+								size="icon"
+								href="https://www.snapchat.com/add/dukegulf?share_id=L9sePGwZYkA&locale=ar-AE"
+								target="_blank"
+								rel="noopener noreferrer"
 							>
 								<Snapchat />
 							</Button>
 							<Button
+								aria-label="Follow us on Instagram"
 								variant="outline"
 								size="icon"
 								href="https://www.instagram.com/dukegulf"
@@ -94,6 +99,7 @@
 								<Instagram />
 							</Button>
 							<Button
+								aria-label="Follow us on Tiktok"
 								variant="outline"
 								size="icon"
 								href="https://www.tiktok.com/@dukegulf"

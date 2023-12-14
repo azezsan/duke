@@ -11,6 +11,10 @@
 	import Portfolio from '$lib/components/sections/portfolio.svelte';
 </script>
 
+<svelte:head>
+	<title>home</title>
+</svelte:head>
+
 <Navbar />
 <Hero />
 <Logo />

@@ -1,5 +1,6 @@
 import { sveltekit } from '@sveltejs/kit/vite';
 import { paraglide } from '@inlang/paraglide-js-adapter-vite';
+import { imagetools } from 'vite-imagetools';
 import { defineConfig } from 'vite';
 
 export default defineConfig({
@@ -9,5 +10,6 @@ export default defineConfig({
 			project: './project.inlang',
 			outdir: './src/paraglide'
 		}),
+		imagetools()
 	]
 });

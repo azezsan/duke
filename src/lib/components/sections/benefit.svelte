@@ -1,9 +1,9 @@
 <script>
 	import * as m from '$paraglide/messages';
-	import image1 from '$lib/assets/Modren_Bulding.png';
-	import image2 from '$lib/assets/Tall_Bulding.png';
-	import image3 from '$lib/assets/Middle_Bulding.png';
-	import image4 from '$lib/assets/Glass_Bulding.png';
+	import image1 from '$lib/assets/Modren_Bulding.png?w=600&format=webp';
+	import image2 from '$lib/assets/Tall_Bulding.png?w=600&format=webp';
+	import image3 from '$lib/assets/Middle_Bulding.png?w=600&format=webp';
+	import image4 from '$lib/assets/Glass_Bulding.png?w=600&format=webp';
 
 	const benefits = [
 		{
@@ -47,7 +47,7 @@
 							<h3 class="title">{title}</h3>
 							<p class="subtitle">{subtitle}</p>
 						</div>
-						<img {src} {alt} />
+						<img {src} {alt} width="600" height="600" />
 					</div>
 				{/each}
 			</div>

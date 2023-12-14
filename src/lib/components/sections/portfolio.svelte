@@ -1,9 +1,9 @@
 <script>
 	import * as m from '$paraglide/messages';
 	import Badge from '../ui/badge/badge.svelte';
-	import project1 from '$lib/assets/project_1.png';
-	import project2 from '$lib/assets/project_2.png';
-	import project3 from '$lib/assets/project_3.png';
+	import project1 from '$lib/assets/project_1.png?w=600&format=webp';
+	import project2 from '$lib/assets/project_2.png?w=600&format=webp';
+	import project3 from '$lib/assets/project_3.png?w=600&format=webp';
 
 	const portfolio = [
 		{
@@ -39,7 +39,7 @@
 					<div
 						class="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-16 max-w-6xl mx-auto justify-between"
 					>
-						<img {src} {alt} width="800" class={i % 2 == 1 ? 'md:order-1' : ''} />
+						<img {src} {alt} width="600" height="600" class={i % 2 == 1 ? 'md:order-1' : ''} />
 						<div class="flex flex-col gap-4 justify-center">
 							<h3 class="label">{title}</h3>
 							<div class="flex flex-row gap-4">
