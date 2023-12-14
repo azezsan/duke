@@ -6,6 +6,10 @@
 	import image from '$lib/assets/Logos/whatsapp.svg';
 </script>
 
+<svelte:head>
+	<meta name="description" content="شركة الدوق الخليجية" />
+</svelte:head>
+
 <ParaglideJsSvelteKitAdapter>
 	<ModeWatcher />
 	<slot />

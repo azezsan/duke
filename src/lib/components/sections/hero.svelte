@@ -3,9 +3,9 @@
 	import PrimaryButton from '../ui/button/primaryButton.svelte';
 	import SecondaryButton from '../ui/button/secondaryButton.svelte';
 	import image1 from '$lib/assets/Hero_Image/top_line.svg';
-	import image2 from '$lib/assets/Hero_Image/top_image.png';
+	import image2 from '$lib/assets/Hero_Image/top_image.png?w=600&format=webp';
 	import image3 from '$lib/assets/Hero_Image/middle_line.svg';
-	import image4 from '$lib/assets/Hero_Image/bottom_image.png';
+	import image4 from '$lib/assets/Hero_Image/bottom_image.png?w=600&format=webp';
 	import image5 from '$lib/assets/Hero_Image/bottom_line.svg';
 
 	let isMounted = $state(false);
@@ -28,7 +28,7 @@
 					{m.hero_title()}
 				</h1>
 				<p
-					class="subtitle transition-all delay-[100ms] duration-[1000ms] ease-in-out {isMounted
+					class="subtitle transition-all delay-[25ms] duration-[1000ms] ease-in-out {isMounted
 						? 'opacity-100'
 						: 'opacity-0 -translate-y-5'}"
 				>
@@ -54,6 +54,8 @@
 				<img
 					src={image2}
 					alt="hero"
+					height="700"
+					width="700"
 					class="absolute top-0 left-0 w-full h-full transition-all delay-[2000ms] duration-[1200ms] ease-in-out {isMounted
 						? 'opacity-100'
 						: 'opacity-0'}"
@@ -68,6 +70,8 @@
 				<img
 					src={image4}
 					alt="hero"
+					height="700"
+					width="700"
 					class="absolute top-0 left-0 w-full h-full transition-all delay-[1400ms] duration-[1200ms] ease-in-out {isMounted
 						? 'opacity-100'
 						: 'opacity-0'}"

@@ -16,7 +16,7 @@
 <header class="py-4 md:py-8">
 	<div class="mx-auto max-w-7xl px-4 md:px-6 lg:px-8">
 		<div class="flex items-center justify-between">
-			<a href={translatePath('/')} class="flex gap-4 items-center">
+			<a href={translatePath('/')} aria-label="back to home page" class="flex gap-4 items-center">
 				{#if languageTag() === 'en'}
 					<LogoEn />
 				{:else}

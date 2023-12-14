@@ -1,6 +1,6 @@
 <script>
 	import * as m from '$paraglide/messages';
-	import image from '$lib/assets/3_Buldings.png';
+	import image from '$lib/assets/3_Buldings.png?w=600&format=webp';
 
 	const stats = [
 		{
@@ -29,7 +29,7 @@
 					{/each}
 				</div>
 			</div>
-			<img src={image} alt="hero" />
+			<img src={image} alt="hero" width="600" height="600" />
 		</div>
 	</div>
 </section>
